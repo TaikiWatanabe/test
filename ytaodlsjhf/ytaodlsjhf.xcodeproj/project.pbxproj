@@ -14,6 +14,7 @@
 		5CED69171DA63EC9005D673F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CED69151DA63EC9005D673F /* LaunchScreen.storyboard */; };
 		5CED69221DA63EC9005D673F /* ytaodlsjhfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED69211DA63EC9005D673F /* ytaodlsjhfTests.swift */; };
 		5CED692D1DA63EC9005D673F /* ytaodlsjhfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED692C1DA63EC9005D673F /* ytaodlsjhfUITests.swift */; };
+		5CED693B1DA63FBA005D673F /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED693A1DA63FBA005D673F /* test1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5CED69281DA63EC9005D673F /* ytaodlsjhfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ytaodlsjhfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CED692C1DA63EC9005D673F /* ytaodlsjhfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ytaodlsjhfUITests.swift; sourceTree = "<group>"; };
 		5CED692E1DA63EC9005D673F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CED693A1DA63FBA005D673F /* test1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5CED69131DA63EC9005D673F /* Assets.xcassets */,
 				5CED69151DA63EC9005D673F /* LaunchScreen.storyboard */,
 				5CED69181DA63EC9005D673F /* Info.plist */,
+				5CED693A1DA63FBA005D673F /* test1.swift */,
 			);
 			path = ytaodlsjhf;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CED690F1DA63EC9005D673F /* ViewController.swift in Sources */,
+				5CED693B1DA63FBA005D673F /* test1.swift in Sources */,
 				5CED690D1DA63EC9005D673F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				5CED69331DA63EC9005D673F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CED69341DA63EC9005D673F /* Build configuration list for PBXNativeTarget "ytaodlsjhfTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				5CED69361DA63EC9005D673F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CED69371DA63EC9005D673F /* Build configuration list for PBXNativeTarget "ytaodlsjhfUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				5CED69391DA63EC9005D673F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
